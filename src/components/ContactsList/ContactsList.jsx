@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 const ContactsList = ({ contacts, deleteContact }) => {
-  // const contacts = useSelector(state => state.phoneBook.contacts);
 
   const dataToInsert = contacts.map(contact => {
     return (
